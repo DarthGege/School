@@ -1,0 +1,8 @@
+<center><inverse>Récurence<inverse><center>
+
+<inverse>Initialisation :<inverse>
+Déterminer P0
+<inverse>Hérédité :<inverse>
+Supposons Pn vraie, démontrons Pn+1
+<inverse>Conclusion :<inverse>
+P0 est vraie, Pn est héréditaire, donc par récurence Pn est vraie pour tout entier n
