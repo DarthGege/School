@@ -1,0 +1,52 @@
+<center><inverse>Probabilités<inverse><center>
+
+P(ANB)=P(A)+P(B)-P(AUB)
+P(ANB)=P(A)<0x09>P_A(B)
+Evènement indépendant
+P(ANB)=P(A)<0x09>P(B)
+Si P(A)=0 alors A et B indépendant
+P_B(A)=P(A)
+Si A et B sont indépendant alors A| et B aussi
+(ANB)U(A|NB)=B
+Démonstration
+(ANB) et (A|NB) sont indépendant
+donc (ANB)N(A|NB)=<0xC9>
+P((ANB)U(A|NB)) = P(ANB)+P(A|NB) = P(B)
+P(B) = P(A)<0x09>P(B)+P(A|NB)
+P(A|NB) = P(B)-P(A)<0x09>P(B)
+= P(B)<0x09>(1-P(A))
+= P(B)<0x09>P(A|)
+
+B_1,B_2,B_3... formant une partition de l'univers
+P(A)=P(B_1NA)+P(B_2NA)+P(B_3NA)...
+si E et E| sont l'univers:
+P(A)=P(ENA)+P(E|NA)
+
+( n )
+( k )
+P : Probabilité
+n : Nombres de répétition
+k : Nombres de succès
+X : est comprit entre O et n
+
+p(X=k) = (n/k)p^k<0xC9>(1-p)^(n-k)
+Espérance : E(X)=np
+Variance : V(X)=np(1-p)
+Ecart-type : <0xC7>(X)=<0x10>np(1-p)
+
+Calculatrice:
+Taper n
+MATH -> PRB
+Combinaison
+Taper k
+Entre
+
+2nd var (distrib)
+Pour calculer P(X=k)
+A:binomFdp(
+Entre
+binomFdp(n,p,k)
+Entre
+Pour calculer P(X<=k)
+B:binomFRép(n,p,k)
+Entre
