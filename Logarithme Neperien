@@ -1,0 +1,77 @@
+<center><inverse>Logarithme Neperien<inverse><center>
+
+<inverse>Propriétés :<inverse>
+1 Pour tout a>0 et b<0xC0>|R e^b=a & b=ln(a)
+2 Pour tout a>0 e^(ln(a))=a
+3 Pour tout b<0xC0>|R ln(e^b)=b
+4 ln(x) croissante sur ]0;+<0x0A><0x0A>[
+x;y<0xC0>]0;+<0x0A><0x0A>[ x<y e^(ln(x))<e^(ln(y))
+e^x croissant sur |R
+ln(x) < ln(y)
+Donc ln croissant sur ]0;+<0x0A><0x0A>[
+5 lim->0 ln(x)=-<0x0A><0x0A>
+Pour tout A<0 0<x<x_0 ln(x)<A
+Soit ln(x)<A<0
+e^x croissant sur |R
+e^(ln(x))<e^(A) x<e^A
+Donc pour tout A<0 x_0=e^(A) 0<x<e^(A) ln(x)<A
+6 lim->+<0x0A><0x0A> ln(x)=+<0x0A><0x0A>
+Pour tout A>0 0<x_0<x ln(x)>A
+Soit ln(x)>A>0
+e^x croissant sur |R
+e^(ln(x))>e^(A) x>e^A
+Donc pour tout A>0 x_0=e^(A) x>e^(A) ln(x)>A
+
+<inverse>Dérivée de ln(x)<inverse>
+f'(a) = lim->a (f(x)-f(a))/(x-a)
+r(x)= (f(x)-f(a))/(x-a) =ln(x)-ln(a))/(e^(ln(x))-e^(ln(a)))
+X=ln(x) donc r(X) =1/((e^(x)-e^(ln(a)))/(x-ln(a)))
+Or lim(X->ln(a)) (e^(X)-e^(ln(a))/(X-ln(a)) =e^(ln(a)) =a
+Par passage Ã  l'inverse lim->a r(x)=1/a donc f'(a)=1/a
+
+<inverse>Propriété<inverse>
+Pour tout A<0 B<0 ln(A<0x09>B)=ln(a)+ln(b)
+A<0x09>B=e^(ln(A<0x09>B)
+A<0x09>B=e^(ln(A))<0x09>e^(ln(B)) =e^(ln(A)+ln(B))
+
+<inverse>Conséquence<inverse>
+n<0xC0>|N A>0 ln(A^n) n<0x09>ln(A)
+n=0 ln(A^0) =ln(1)=0 0<0x09>ln(a)=0 donc P_0 vrai
+supposons P_n vraie:
+ln(a^(n+1))=ln(a<0x09>a^(n)) =ln(a^n)+ln(a) =n<0x09>ln(a)+ln(a) d'après P_n
+=(n+1)<0x09>ln(a) P_n+1 est vraie
+P0 est vraie, Pn est héréditaire donc n<0xC0>|N Pn est vraie
+
+<inverse>Propriété<inverse>
+1 B>0 ln(1/B)= -lnB
+B<0x09>(1/B)=1 ln(B)+ln(1/B)=ln(1)=0
+2 A>0 B>0 ln(A/B)=ln(A)-ln(B)
+(A/B)=A<0x09>(1/B) ln(A/B)=ln(A)+ln(1/B) =ln(A)-ln(B)
+3 ln(<0x10>(A))=(1/2)<0x09>ln(A) A>0
+ln(A)=ln((<0x10>(A))<0x12>)=2<0x09>ln(<0x10>(A))
+4 A>0 n<0xC0>|N ln(A^-n)=-n<0x09>ln(A)
+ln(A^-n)=ln(1/A^n)=-ln(A^n) =-n<0x09>ln(A)
+
+Théoèréme des croissance comparée
+On cherche lim->0 (ln(1+x))/x ln(1)=0
+ln'(1)=lim->0 (ln(1+x)-ln(1))/x
+ln'(x)=1/x
+lim->0 (ln(1+x))/x=1
+
+Propriétée
+lim->+<0x0A><0x0A> ln(x)/x=0
+lim->+<0x0A><0x0A> ln(x)/x^n=0 avec n<0xC0>|N*
+
+Démonstration
+x>0 ln(x)/x=ln/e^(ln(x)
+X=ln(x)
+ln(x)/x=X/e^(X)
+lim(X->+<0x0A><0x0A>) e^(X)/X=+<0x0A><0x0A>
+Par passage à  l'inverse
+lim(X->+<0x0A><0x0A>) X/e^(X)=0
+
+Dérivée de ln(u) avec u>0
+f(x)=ln(x)
+g(x)=u(x)
+(fog)'(x)=g'(x)<0x09>f'(g(x))
+(ln(u(x)))'=u'(x)<0x09>1/u(x) =(ln(u))'=u'/u
