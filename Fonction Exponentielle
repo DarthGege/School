@@ -1,0 +1,48 @@
+<center><inverse>Fonction Exponentielle<inverse><center>
+
+Définie, continue, dérivable, positive et strictement croissante sur R.
+exp' (x) = exp (x)
+exp(n)=e^n
+e^x=e^((2<0x09>x)/2)=(e^(x/2))<0x12>>0
+e^x > 0
+e^0=1  e^1=e
+
+exp(a+b)=exp(a)<0x09>exp(b)
+exp(-a)=1/exp(a)
+exp(a-b)=exp(a)/exp(b)
+exp(na)=(exp(a))^n
+
+exp(R)=]0;+<0x0A><0x0A>[
+exp(a)=exp(b) <=> a=b
+exp(a)<exp(b) <=> a<b
+
+lim x --> +<0x0A><0x0A>
+e^x = +<0x0A><0x0A>
+e^-x = 0
+(e^x)/x = +<0x0A><0x0A>
+
+lim x --> -<0x0A><0x0A>
+e^x = 0
+e^-x = +<0x0A><0x0A>
+xe^x = 0
+
+lim x --> 0
+(e^x-1)/x = 1
+
+Dérivée
+exp(u(x)) = u'(x)<0x09>exp'(u(x))
+e^u(x) = u'e^u
+u(x) = ax+b e^(ax+b) a<0x09>e^(ax+b)
+
+<0xC9>(x) = e^x-(x^2)/2 sur [0;+<0x0A><0x0A>[
+<0xC9>'(x) = e^x-x
+<0xC9>'(x) >= 0
+[Tableau de var]
+Pour tout x sur [0;+<0x0A><0x0A>[
+donc e^x-(x^2)/2 > 0
+lim x->+<0x0A><0x0A> (x^2)/2=+<0x0A><0x0A>
+d'après le théorème de comparaison
+e^x-(x^2)/2 > 0
+((e^x)/x)-x/2 > 0
+((e^x)/x) > x/2
+lim x->+<0x0A><0x0A> (e^x)/x=+<0x0A><0x0A>
