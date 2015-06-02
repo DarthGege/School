@@ -1,0 +1,47 @@
+<center><inverse>Cinétique et dynamique newtonienne<inverse><center>
+
+Dans le référenciel supposé galiléen, le système est soumie à des force qui se compense donc d'après la première loi de Newton la vitesse est constante.
+
+- Référentiel terrestre : Solide de référence = n'importe quel objet fixe par rapport au sol. (Pour les mouvements de projectiles)
+- Référentiel géocentrique : Solide de référence = centre de la terre. (Pour les mouvements de satellites)
+- Référentiel héliocentrique : Solide de référence = centre du soleil. (Pour les mouvements de plantes)
+
+(OM)=xi+yj+zk
+
+On fait l'approximation que la vitesse instantanée en un point est égale à la vitesse moyenne entre 2 points très proches encadrant le point étudié.
+(M_(i-1) M_(i+1) )/(t_(i-1)-t_(i+1) )
+
+p=m×v
+p et v même direction
+
+(a_i )=((v_(i+1) )-(v_(i-1) ))/(t_(i+1)-t_(i-1) )
+
+v_4=(distance M_3 M_4)/(t_5-t_3 )
+a_4=(v_5-v_3)/(t_5-t_3 )
+
+- Mouvement rectiligne uniforme : v (Constante) donc a =(dv)/dt=0
+- Mouvement rectiligne varié : v pas contant a=/=0
+a et v  ont la même direction
+Mouvement circulaire uniforme : v pas constante, la même norme mais la direction change
+
+
+<inverse>Les lois de Newton<inverse>
+<center>Référentiel galiléen<center>
+Un référentiel galiléen est un référentiel dans lequel les lois de Newton sont vérifiées. Tout référentiel  en translation rectiligne uniforme par rapport à un référentiel galiléen est galiléen.
+
+<center>1ère loi de newton ou principe d'inertie<center>
+Dans un référentiel galiléen, le centre d'inertie d'un système est immobile ou rectiligne uniforme si la somme des forces extérieures auxquels il est soumis est nulle, et réciproquement.
+
+<center>2ème loi de Newton<center>
+Dans un référentiel galiléen, la dérivée par rapport au temps de la quantité de mouvement du centre d'inertie du système est égale à la somme des forces extérieurs s'applique au système
+Si la masse est constante :
+Fext=m×a
+N=kg×m/s^2
+L'accélération à la même direction et même sens que la somme des forces extérieur
+
+<center>3ème loi de Newton<center>
+Si A exerce une force sur Ba lors B exerce une force sur A de même direction et de même norme mais de sens opposés
+
+m_1×g=G×(m_1×m_2)/(r+h)^2
+m_1 : Avion
+m_2 : Terre

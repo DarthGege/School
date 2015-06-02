@@ -1,0 +1,17 @@
+<center><inverse>Planet et satellite<inverse><center>
+
+F->_A/B=G<0x09>(m_A<0x09>m_B)/d^2<0x09>u->_AB
+
+<inverse>Mouvement circulaire uniforme<inverse>
+a=(G<0x09>M)/r^2=v^2/r
+v=<0x10>((G<0x09>M)/r)
+
+<inverse>Période de révolution<inverse>
+T=(2<0xC4>r)/v =2<0xC4><0x09><0x10>(r^3/(G<0x09>M))
+
+<inverse>Lois de Kepler<inverse>
+1. Dans un référentiel héliocentrique, la trajectoire d'une planète est une ellipse et le centre du soleil occupe un des deux foyers. On dit que l'orbite est elliptique.
+2. Le segment reliant le soleil à la planète balaye des aires égales pendant des durées égales
+3. T^2/a^3=constante (a est le demi-grand axe)
+
+Si a=r alors T^2/r^3=(4<0xC4>^2)/(G<0x09>M)

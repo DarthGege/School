@@ -1,0 +1,24 @@
+<center><inverse>Acidobasique<inverse><center>
+
+AH/A<0x1A> : AH=A<0x1A>+H^+
+AH-> Acide A<0x1A>->Base
+AH+H_20 <=> A<0x1A>+H_3O^+
+
+Transformation acido-basique :
+réaction de transfert de H^+ d'un acide à une base
+
+Ke=[H_3O^+]eq<0x09>[HO<0x1A>]eq =10^(-pKe)
+pKe=-log(Ke) =14 (à 25°C)
+Ka=([A<0x1A>]eq<0x09>[H_3O^+]eq)/[AH]eq
+pKa=pH-log([A<0x1A>]eq/[AH]eq) =-log(Ka)
+pH=-log([H_3O^+]) =pKa+log([A<0x1A>]eq/[AH]eq)
+
+si [AH]eq > [A<0x1A>]eq :
+AH prédomine sur par rapport à A<0x1A>
+[A<0x1A>]eq/[AH]eq < 1
+pH < pKa
+Et inversement
+
+ [AH] prédomine | [A<0x1A>] prédomine
+---------------pKa--------------> pH
+[AH]eq > [A<0x1A>]eq [A<0x1A>]eq > [AH]eq
