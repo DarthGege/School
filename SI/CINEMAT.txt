@@ -1,0 +1,19 @@
+<center><inverse>Cinématique<inverse><center>
+
+v=d/t
+
+a(t)=a<0x0A>=Const
+v(t)=a<0x0A>(t-t<0x0A>)+v<0x0A>
+x(t)=(1/2)a<0x0A>(t-t<0x0A>)<0x12>+v<0x0A>(t-t<0x0A>)+x<0x0A>
+
+rad/s tr/min
+<0x09>60/2Pi
+
+W(t) = v(t)
+
+W2/W1 = R1/R2
+W2=W1<0x09>R1/R2
+ v=W2<0x09>Rr
+
+W2/W1 = Z1/Z2
+W2=W1<0x09>Z1/Z2

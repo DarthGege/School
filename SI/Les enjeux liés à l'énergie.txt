@@ -1,0 +1,28 @@
+Les enjeux liés à l'énergie
+
+1) Energie et puissance
+-1Wh=3600J -1TEP=11630000Wh -1cal=4.1855J
+NRJ=Puissance*Temps
+E = P*T
+J=W*s Wh=W*h
+
+2) Transferts d'énergie
+Résistance thermique :
+R = e/Lan
+m^2.K/W=m/(W/(m.K))
+
+3) Puissance élec altern.
+Signal sinusoidal:
+Veff = Vmax/sqr2
+//Déphasage:
+//Phi=
+
+4) Stockage de l'énergie
+1Ah=3600C
+Q=I*t
+C=A.s Ah=A.h
+E=P*t
+J=W.s Wh=W.h
+E=U*Q
+J=V.C Wh=V.Ah
+

@@ -1,0 +1,10 @@
+<center><inverse>Les Réseaux<inverse><center>
+
+Classe | Net ID | Host ID | Plage
+A 08bit 24bit 001.x.x.x à 127.x.x.x
+B 16bit 16bit 128.0.x.x à 191.255.x.x
+C 24bit 08bit 192.0.0.x à 223.255.255.x
+D 32bit 00bit 224.0.0.0 à 239.255.255.255
+
+IPv4=2^32=255^4 possibilités
+IPv6=2^128 possibilités

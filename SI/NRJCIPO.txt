@@ -1,0 +1,33 @@
+<center><inverse>Energies Cinétiques Potentielles<inverse><center>
+
+<center>Le Travail :<center>
+<inverse>Translation<inverse>
+W_(AB)=F-><0x09>AB->=F<0x09>AB<0x09>cos(AB,F)
+J=N<0x09>m
+
+<inverse>Rotation<inverse>
+W=C<0x09><0x5B>
+J=N.m<0x09>Rad
+
+<center>Energie Mécanique:<center>
+<inverse>Potentielle de pesanteur<inverse>
+Ep=m<0x09>g<0x09>h
+J=Kg<0x09>(N/Kg)<0x09>m
+
+<inverse>Potentielle élastique<inverse>
+Ep=(k<0x09>x<0x12>)/2
+J=((N/mm)<0x09>m)/2
+
+<inverse>Cinétique<inverse>
+<center>Translation<center>
+Ec=(1/2)<0x09>m<0x09>v<0x12>
+J=(1/2)<0x09>Kg<0x09>(m/s)<0x12>
+<center>Rotation<center>
+Ec=(1/2)<0x09>J(G,z)<0x09>w<0x12>
+J=(1/2)<0x09>(Kg.m<0x12>)<0x09>(Rad/s)
+<center>Quelconque<center>
+Ec=(1/2)<0x09>m<0x09>v<0x12>+(1/2)<0x09>J<0x09>w<0x12>
+
+Ec_2-Ec_1=<0xC6>W(Fext)1->2
+
+<center>Em=Ec+Ep<center>

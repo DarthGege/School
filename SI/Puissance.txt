@@ -1,0 +1,13 @@
+Electrique:
+P=U*I W=V.A
+Translation:
+P=F*v W=N.m/s
+Rotation:
+P=C*w W=N.m.rad/s
+
+Puissance active (W)
+P=V*I*cosPhi
+Puissance réactive (VAR)
+Q=V*I*sinPhi
+Puissance apparente (VA)
+S=V*I

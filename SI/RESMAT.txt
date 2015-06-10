@@ -1,0 +1,62 @@
+<center><inverse>Résistance des matériaux<inverse><center>
+
+<0xC7>->=<0xC7>.N->
+<0xC8>->=<0xC8>_y.y->+<0xC8>_z.z->
+N||<0xC7>>0 Traction
+n||<0xC7><0 Compression
+Ty Cisaillement
+Tz Cisaillement
+Mt Torsion
+Mfy Flexion
+Mfz Flexion
+
+<inverse>Sollicitations de Traction - Compression<inverse>
+
+<0xC7>=F/S MPa=N/mm<0x12>
+
+<0xC7>=E<0x09><0xC0>
+<0xC7> : Contrainte de traction (MPa)
+E : Module d'élasticité longitudinal (MPa)
+<0xC0> : Allongement unitaire
+
+<0xBE>L=(F<0x09>l)/(E<0x09>S)
+F : Norme de la force (N)
+L : Longueur au repos de la pièce (mm)
+E : Module de Young (MPa)
+S : Aire de la section de la pièce (mm<0x12>)
+
+Rpe=Re/s
+Rpe : Résistance pratique à l'extension (MPa)
+Re : Résistance élastique du matériau (MPa)
+s: Coefficient de sécurité >1
+
+Condition de résistance :
+<0xC7><0x17>Rpe
+
+<inverse>Sollicitations de Flexion simple<inverse>
+
+<0xC7>=(Mf/Iz)<0x09>y
+Mf : Moment de flexion (N.mm)
+Iz : Moment quadratique (mm^4)
+y : Ordonnée du (mm)
+
+<inverse>Sollicitations de Cisaillement<inverse>
+
+<0xC8>_moy=T/S
+<0xC8> : Contrainte tangentielle de cisaillement (MPa)
+T : Norme de l'effort tranchant (N)
+S : Aire de la section droite
+
+|<0xC8>moy|=<0xC7>
+
+<inverse>Sollicitations de Torsion<inverse>
+
+<0xC8>_M=G.<0x5B>.<0xC5>_M
+<0xC8>_M : Contrainte tangentielle dans le matériau (MPa)
+G : Module d'élasticité transversale du matériau (MPa)
+<0x5B> : Angle unitaire de torsion (rad/mm)
+<0xC5>_M : Rayon considéré pour l'analyse (mm)
+
+Mt=G.<0x5B>.I_0
+Mt : Moment de torsion (N.mm)
+I_0 : Moment quadratique (mm^4)

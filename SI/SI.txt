@@ -1,0 +1,71 @@
+<center><inverse>Sciences de l<0x27>Ingénieur<inverse><center>
+
+<inverse>MCC<inverse>
+E=ke<0x09><0xCA>
+E:fem(V)
+ke:const((V<0x09>s)/rad)
+<0xCA>:freq de rot(rad/s)
+
+Cem=ki<0x09>I
+Cem:(Nm)
+ki:coef(Nm/A)
+
+U=E+R<0x09>I
+
+Cem=Cr=C0+f<0x09><0xCA>
+Cr:C disp sur axe
+C0:C de frot
+f:frot visqu(Nm.s/rad)
+
+U(V) <0x7C> C(Nm) <0x7C> F(N)
+I(A) <0x7C> w(r/s) <0x7C> V(r/s)
+
+Rap cyc=(th/T)<0x09>100
+Vmoy=(th/T)<0x09>Vcc
+
+<inverse>Lois Electrique<inverse>
+P=U<0x09>I W=V<0x09>A
+U=R<0x09>I V=<0xCA><0x09>A
+E=P<0x09>T Wh=W<0x09>h
+Q=I<0x09>T Ah=A<0x09>h
+Q=I<0x09>T C=A<0x09>s
+W=P<0x09>t Wh=W<0x09>h
+W=U<0x09>Q Wh=V<0x09>Ah
+W=U<0x09>Q J=V<0x09>C
+Ubat=E-Urint
+Urint=I<0x09>Rint
+
+Requ=R1+R2+R3+...
+1/Requ=(1/R1)+(1/R2)
+I1+I2=I3+I4
+E-U1-U2=0
+U1=U<0x09>(R1/(R1+R2))
+
+<inverse>Puissance<inverse>
+Puissance(W)=NRJ(j)/Tps(s)
+Elec
+P=U(V)<0x09>U(I)
+Méca trs
+P=F(N)<0x09>V(m.s)
+Méca rot
+P=C(Nm)<0x09>W(rd/s)
+P=T<0x09>W(rd/s)
+Hydrolique
+P=Q(m<0x0E>/s)<0x09>p(pasc)
+
+<inverse>Conversion<inverse>
+1Wh=3600J
+1W=1J/s
+1TEP=1163<0x1D><0x5E>4J
+1CAL=4.1855J
+P=NRJ/Temps
+P=Gr eff<0x09>Gr NRJ
+<0x01>=Es/Ee
+<0x01>=Ps/Pe
+NRJ=P<0x09>Temps
+D=V/T
+Epp=m<0x09>g<0x09>h
+U=<0x10>(3)<0x09>V
+Q=I<0x09>T
+NRJelec=Q<0x09><0xBE>U
+<0x01>Glob=<0x01>1<0x09><0x01>2<0x09><0x01>3...
